@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F435616F2BA7B00E004022E7 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435616E2BA7B00E004022E7 /* TestView.swift */; };
+		F43561712BA7F2EC004022E7 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43561702BA7F2EC004022E7 /* GridView.swift */; };
+		F43561732BA80F25004022E7 /* PhotoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43561722BA80F24004022E7 /* PhotoListView.swift */; };
+		F43561752BA814A2004022E7 /* Test01View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43561742BA814A2004022E7 /* Test01View.swift */; };
+		F4A8754C2BA665630014BA22 /* MarsLenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8754B2BA665630014BA22 /* MarsLenApp.swift */; };
+		F4A8754E2BA665630014BA22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8754D2BA665630014BA22 /* ContentView.swift */; };
+		F4A875502BA665650014BA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A8754F2BA665650014BA22 /* Assets.xcassets */; };
+		F4A875532BA665650014BA22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A875522BA665650014BA22 /* Preview Assets.xcassets */; };
+		F4A8755B2BA667710014BA22 /* RoverListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8755A2BA667710014BA22 /* RoverListView.swift */; };
+		F4A8755D2BA6696C0014BA22 /* RoverDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8755C2BA6696C0014BA22 /* RoverDetailView.swift */; };
+		F4A875602BA669F50014BA22 /* ColorExtends.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8755F2BA669F50014BA22 /* ColorExtends.swift */; };
+		F4A875622BA679D30014BA22 /* DynamicGradientBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A875612BA679D30014BA22 /* DynamicGradientBorderButton.swift */; };
+		F4A875682BA6A5D40014BA22 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A875672BA6A5D40014BA22 /* AppModel.swift */; };
+		F4A8756D2BA6B2070014BA22 /* Test3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8756C2BA6B2070014BA22 /* Test3DView.swift */; };
+		F4A875762BA6C3350014BA22 /* spirit.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4A875752BA6C3350014BA22 /* spirit.usdz */; };
+		F4A875792BA6C9610014BA22 /* spirit.scn in Resources */ = {isa = PBXBuildFile; fileRef = F4A875782BA6C9610014BA22 /* spirit.scn */; };
+		F4A8757B2BA6CE560014BA22 /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4A8757A2BA6CE560014BA22 /* Earth.usdz */; };
+		F4A8757D2BA6CF130014BA22 /* Earth.scn in Resources */ = {isa = PBXBuildFile; fileRef = F4A8757C2BA6CF130014BA22 /* Earth.scn */; };
+		F4A8757F2BA6D0960014BA22 /* MRO.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4A8757E2BA6D0960014BA22 /* MRO.usdz */; };
+		F4A875812BA6E08D0014BA22 /* EarthClouds.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4A875802BA6E08C0014BA22 /* EarthClouds.usdz */; };
+		F4A875832BA6E0CB0014BA22 /* EarthClouds.scn in Resources */ = {isa = PBXBuildFile; fileRef = F4A875822BA6E0CB0014BA22 /* EarthClouds.scn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F435616E2BA7B00E004022E7 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		F43561702BA7F2EC004022E7 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		F43561722BA80F24004022E7 /* PhotoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListView.swift; sourceTree = "<group>"; };
+		F43561742BA814A2004022E7 /* Test01View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test01View.swift; sourceTree = "<group>"; };
+		F4A875482BA665630014BA22 /* MarsLen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsLen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A8754B2BA665630014BA22 /* MarsLenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsLenApp.swift; sourceTree = "<group>"; };
+		F4A8754D2BA665630014BA22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4A8754F2BA665650014BA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4A875522BA665650014BA22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4A8755A2BA667710014BA22 /* RoverListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverListView.swift; sourceTree = "<group>"; };
+		F4A8755C2BA6696C0014BA22 /* RoverDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverDetailView.swift; sourceTree = "<group>"; };
+		F4A8755F2BA669F50014BA22 /* ColorExtends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtends.swift; sourceTree = "<group>"; };
+		F4A875612BA679D30014BA22 /* DynamicGradientBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicGradientBorderButton.swift; sourceTree = "<group>"; };
+		F4A875672BA6A5D40014BA22 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		F4A8756C2BA6B2070014BA22 /* Test3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test3DView.swift; sourceTree = "<group>"; };
+		F4A875752BA6C3350014BA22 /* spirit.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = spirit.usdz; sourceTree = "<group>"; };
+		F4A875782BA6C9610014BA22 /* spirit.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = spirit.scn; sourceTree = "<group>"; };
+		F4A8757A2BA6CE560014BA22 /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
+		F4A8757C2BA6CF130014BA22 /* Earth.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Earth.scn; sourceTree = "<group>"; };
+		F4A8757E2BA6D0960014BA22 /* MRO.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = MRO.usdz; sourceTree = "<group>"; };
+		F4A875802BA6E08C0014BA22 /* EarthClouds.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = EarthClouds.usdz; sourceTree = "<group>"; };
+		F4A875822BA6E0CB0014BA22 /* EarthClouds.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = EarthClouds.scn; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		F4A8753F2BA665630014BA22 = {
+			isa = PBXGroup;
+			children = (
+				F4A8754A2BA665630014BA22 /* MarsLen */,
+				F4A875492BA665630014BA22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4A875492BA665630014BA22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4A875482BA665630014BA22 /* MarsLen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4A8754A2BA665630014BA22 /* MarsLen */ = {
+			isa = PBXGroup;
+			children = (
+				F4A875772BA6C3450014BA22 /* Objects */,
+				F4A875662BA6A5C40014BA22 /* Models */,
+				F4A8755E2BA669E00014BA22 /* Extends */,
+				F4A875632BA679DE0014BA22 /* Widgets */,
+				F4A875592BA665BB0014BA22 /* Views */,
+				F4A8754F2BA665650014BA22 /* Assets.xcassets */,
+				F4A875512BA665650014BA22 /* Preview Content */,
+			);
+			path = MarsLen;
+			sourceTree = "<group>";
+		};
+		F4A875512BA665650014BA22 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4A875522BA665650014BA22 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4A875592BA665BB0014BA22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4A8754B2BA665630014BA22 /* MarsLenApp.swift */,
+				F4A8754D2BA665630014BA22 /* ContentView.swift */,
+				F4A8755A2BA667710014BA22 /* RoverListView.swift */,
+				F4A8755C2BA6696C0014BA22 /* RoverDetailView.swift */,
+				F43561722BA80F24004022E7 /* PhotoListView.swift */,
+				F4A8756C2BA6B2070014BA22 /* Test3DView.swift */,
+				F435616E2BA7B00E004022E7 /* TestView.swift */,
+				F43561742BA814A2004022E7 /* Test01View.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4A8755E2BA669E00014BA22 /* Extends */ = {
+			isa = PBXGroup;
+			children = (
+				F4A8755F2BA669F50014BA22 /* ColorExtends.swift */,
+			);
+			path = Extends;
+			sourceTree = "<group>";
+		};
+		F4A875632BA679DE0014BA22 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				F4A875612BA679D30014BA22 /* DynamicGradientBorderButton.swift */,
+				F43561702BA7F2EC004022E7 /* GridView.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		F4A875662BA6A5C40014BA22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4A875672BA6A5D40014BA22 /* AppModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4A875772BA6C3450014BA22 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				F4A8757E2BA6D0960014BA22 /* MRO.usdz */,
+				F4A875802BA6E08C0014BA22 /* EarthClouds.usdz */,
+				F4A875752BA6C3350014BA22 /* spirit.usdz */,
+				F4A8757A2BA6CE560014BA22 /* Earth.usdz */,
+				F4A875822BA6E0CB0014BA22 /* EarthClouds.scn */,
+				F4A8757C2BA6CF130014BA22 /* Earth.scn */,
+				F4A875782BA6C9610014BA22 /* spirit.scn */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4A875472BA665630014BA22 /* MarsLen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A875562BA665650014BA22 /* Build configuration list for PBXNativeTarget "MarsLen" */;
+			buildPhases = (
+				F4A875442BA665630014BA22 /* Sources */,
+				F4A875462BA665630014BA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsLen;
+			packageProductDependencies = (
+				F4A8756A2BA6AFDA0014BA22 /* GLTFKit2 */,
+			);
+			productName = MarsLen;
+			productReference = F4A875482BA665630014BA22 /* MarsLen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4A875402BA665630014BA22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F4A875472BA665630014BA22 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F4A875432BA665630014BA22 /* Build configuration list for PBXProject "MarsLen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4A8753F2BA665630014BA22;
+			packageReferences = (
+				F4A875692BA6AFDA0014BA22 /* XCRemoteSwiftPackageReference "GLTFKit2" */,
+			);
+			productRefGroup = F4A875492BA665630014BA22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4A875472BA665630014BA22 /* MarsLen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4A875462BA665630014BA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A875812BA6E08D0014BA22 /* EarthClouds.usdz in Resources */,
+				F4A8757F2BA6D0960014BA22 /* MRO.usdz in Resources */,
+				F4A875832BA6E0CB0014BA22 /* EarthClouds.scn in Resources */,
+				F4A8757B2BA6CE560014BA22 /* Earth.usdz in Resources */,
+				F4A875792BA6C9610014BA22 /* spirit.scn in Resources */,
+				F4A875762BA6C3350014BA22 /* spirit.usdz in Resources */,
+				F4A8757D2BA6CF130014BA22 /* Earth.scn in Resources */,
+				F4A875532BA665650014BA22 /* Preview Assets.xcassets in Resources */,
+				F4A875502BA665650014BA22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4A875442BA665630014BA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A875682BA6A5D40014BA22 /* AppModel.swift in Sources */,
+				F4A8755D2BA6696C0014BA22 /* RoverDetailView.swift in Sources */,
+				F435616F2BA7B00E004022E7 /* TestView.swift in Sources */,
+				F4A875622BA679D30014BA22 /* DynamicGradientBorderButton.swift in Sources */,
+				F4A875602BA669F50014BA22 /* ColorExtends.swift in Sources */,
+				F43561732BA80F25004022E7 /* PhotoListView.swift in Sources */,
+				F4A8756D2BA6B2070014BA22 /* Test3DView.swift in Sources */,
+				F43561752BA814A2004022E7 /* Test01View.swift in Sources */,
+				F4A8755B2BA667710014BA22 /* RoverListView.swift in Sources */,
+				F4A8754E2BA665630014BA22 /* ContentView.swift in Sources */,
+				F4A8754C2BA665630014BA22 /* MarsLenApp.swift in Sources */,
+				F43561712BA7F2EC004022E7 /* GridView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4A875542BA665650014BA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4A875552BA665650014BA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4A875572BA665650014BA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarsLen/Preview Content\"";
+				DEVELOPMENT_TEAM = YD343X57ZF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Argus.MarsLen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4A875582BA665650014BA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarsLen/Preview Content\"";
+				DEVELOPMENT_TEAM = YD343X57ZF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Argus.MarsLen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4A875432BA665630014BA22 /* Build configuration list for PBXProject "MarsLen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A875542BA665650014BA22 /* Debug */,
+				F4A875552BA665650014BA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A875562BA665650014BA22 /* Build configuration list for PBXNativeTarget "MarsLen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A875572BA665650014BA22 /* Debug */,
+				F4A875582BA665650014BA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F4A875692BA6AFDA0014BA22 /* XCRemoteSwiftPackageReference "GLTFKit2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/warrenm/GLTFKit2.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F4A8756A2BA6AFDA0014BA22 /* GLTFKit2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4A875692BA6AFDA0014BA22 /* XCRemoteSwiftPackageReference "GLTFKit2" */;
+			productName = GLTFKit2;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F4A875402BA665630014BA22 /* Project object */;
+}

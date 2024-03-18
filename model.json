@@ -1,0 +1,16 @@
+{
+  "property": [
+    {
+      "name": "Curiosity",
+      "image": ["Curiosity_1", "Curiosity_2", "Curiosity_3"]
+    },
+    {
+      "name": "Spirit",
+      "image": ["Spirit_1", "Spirit_2", "Spirit_3"]
+    },
+    {
+      "name": "Opportunity",
+      "image": ["Opportunity_1", "Opportunity_2", "Opportunity_3"]
+    }
+  ]
+}
