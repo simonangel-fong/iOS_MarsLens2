@@ -43,7 +43,7 @@ class roverModel: Codable{
 /// A model of this app
 class AppModel: ObservableObject{
     
-    let cam_list:[String] = ["FHAZ", "RHAZ", "NAVCAM"]
+    let cam_list:[String] = ["RHAZ", "NAVCAM","FHAZ"]
     let rover_list:[Rover] = [
         Rover(
             name: "Curiosity",

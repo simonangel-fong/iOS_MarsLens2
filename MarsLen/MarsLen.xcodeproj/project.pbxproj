@@ -7,58 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F435616F2BA7B00E004022E7 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F435616E2BA7B00E004022E7 /* TestView.swift */; };
 		F43561712BA7F2EC004022E7 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43561702BA7F2EC004022E7 /* GridView.swift */; };
-		F43561732BA80F25004022E7 /* PhotoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43561722BA80F24004022E7 /* PhotoListView.swift */; };
-		F43561752BA814A2004022E7 /* Test01View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43561742BA814A2004022E7 /* Test01View.swift */; };
+		F43561732BA80F25004022E7 /* MissionGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43561722BA80F24004022E7 /* MissionGalleryView.swift */; };
+		F43561752BA814A2004022E7 /* MissionSpecView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43561742BA814A2004022E7 /* MissionSpecView.swift */; };
+		F49BAD5B2BAC975F00E2225E /* NavigationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49BAD5A2BAC975F00E2225E /* NavigationRow.swift */; };
+		F49BAD5D2BAC9B6C00E2225E /* MissionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49BAD5C2BAC9B6C00E2225E /* MissionInfoView.swift */; };
+		F49BAD5F2BAC9F3700E2225E /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49BAD5E2BAC9F3700E2225E /* MissionView.swift */; };
+		F49BAD612BACA31A00E2225E /* MissionDiscoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49BAD602BACA31A00E2225E /* MissionDiscoveryView.swift */; };
+		F49BAD632BACA48B00E2225E /* MissionVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49BAD622BACA48B00E2225E /* MissionVideoView.swift */; };
+		F49BAD672BACADA800E2225E /* ImageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49BAD662BACADA800E2225E /* ImageRow.swift */; };
+		F49BAD692BACB1C300E2225E /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49BAD682BACB1C300E2225E /* PhotoView.swift */; };
 		F4A8754C2BA665630014BA22 /* MarsLenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8754B2BA665630014BA22 /* MarsLenApp.swift */; };
 		F4A8754E2BA665630014BA22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8754D2BA665630014BA22 /* ContentView.swift */; };
 		F4A875502BA665650014BA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A8754F2BA665650014BA22 /* Assets.xcassets */; };
 		F4A875532BA665650014BA22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A875522BA665650014BA22 /* Preview Assets.xcassets */; };
-		F4A8755B2BA667710014BA22 /* RoverListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8755A2BA667710014BA22 /* RoverListView.swift */; };
-		F4A8755D2BA6696C0014BA22 /* RoverDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8755C2BA6696C0014BA22 /* RoverDetailView.swift */; };
+		F4A8755B2BA667710014BA22 /* MissionListVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8755A2BA667710014BA22 /* MissionListVIew.swift */; };
+		F4A8755D2BA6696C0014BA22 /* Test01View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8755C2BA6696C0014BA22 /* Test01View.swift */; };
 		F4A875602BA669F50014BA22 /* ColorExtends.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8755F2BA669F50014BA22 /* ColorExtends.swift */; };
 		F4A875622BA679D30014BA22 /* DynamicGradientBorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A875612BA679D30014BA22 /* DynamicGradientBorderButton.swift */; };
 		F4A875682BA6A5D40014BA22 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A875672BA6A5D40014BA22 /* AppModel.swift */; };
-		F4A8756D2BA6B2070014BA22 /* Test3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8756C2BA6B2070014BA22 /* Test3DView.swift */; };
+		F4A8756D2BA6B2070014BA22 /* Mars3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A8756C2BA6B2070014BA22 /* Mars3DView.swift */; };
 		F4A875762BA6C3350014BA22 /* spirit.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4A875752BA6C3350014BA22 /* spirit.usdz */; };
 		F4A875792BA6C9610014BA22 /* spirit.scn in Resources */ = {isa = PBXBuildFile; fileRef = F4A875782BA6C9610014BA22 /* spirit.scn */; };
-		F4A8757B2BA6CE560014BA22 /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4A8757A2BA6CE560014BA22 /* Earth.usdz */; };
-		F4A8757D2BA6CF130014BA22 /* Earth.scn in Resources */ = {isa = PBXBuildFile; fileRef = F4A8757C2BA6CF130014BA22 /* Earth.scn */; };
 		F4A8757F2BA6D0960014BA22 /* MRO.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4A8757E2BA6D0960014BA22 /* MRO.usdz */; };
 		F4A875812BA6E08D0014BA22 /* EarthClouds.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4A875802BA6E08C0014BA22 /* EarthClouds.usdz */; };
-		F4A875832BA6E0CB0014BA22 /* EarthClouds.scn in Resources */ = {isa = PBXBuildFile; fileRef = F4A875822BA6E0CB0014BA22 /* EarthClouds.scn */; };
+		F4FA46782BAA9E440055047D /* Mars_diff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4FA46752BAA9E440055047D /* Mars_diff.jpg */; };
+		F4FA46792BAA9E440055047D /* 13903_Mars_v1_l3.obj in Resources */ = {isa = PBXBuildFile; fileRef = F4FA46762BAA9E440055047D /* 13903_Mars_v1_l3.obj */; };
+		F4FA467A2BAA9E440055047D /* 13903_Mars_v1_l3.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F4FA46772BAA9E440055047D /* 13903_Mars_v1_l3.mtl */; };
+		F4FA46802BAA9E6F0055047D /* Venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4FA467B2BAA9E6F0055047D /* Venus.usdz */; };
+		F4FA46812BAA9E6F0055047D /* Jupiter.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4FA467C2BAA9E6F0055047D /* Jupiter.usdz */; };
+		F4FA46822BAA9E6F0055047D /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4FA467D2BAA9E6F0055047D /* Earth.usdz */; };
+		F4FA46832BAA9E6F0055047D /* Mars.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4FA467E2BAA9E6F0055047D /* Mars.usdz */; };
+		F4FA46842BAA9E6F0055047D /* Pluto.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4FA467F2BAA9E6F0055047D /* Pluto.usdz */; };
+		F4FA46862BAAA2DC0055047D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA46852BAAA2DC0055047D /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F435616E2BA7B00E004022E7 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		F43561702BA7F2EC004022E7 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
-		F43561722BA80F24004022E7 /* PhotoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListView.swift; sourceTree = "<group>"; };
-		F43561742BA814A2004022E7 /* Test01View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test01View.swift; sourceTree = "<group>"; };
+		F43561722BA80F24004022E7 /* MissionGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionGalleryView.swift; sourceTree = "<group>"; };
+		F43561742BA814A2004022E7 /* MissionSpecView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionSpecView.swift; sourceTree = "<group>"; };
+		F49BAD5A2BAC975F00E2225E /* NavigationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRow.swift; sourceTree = "<group>"; };
+		F49BAD5C2BAC9B6C00E2225E /* MissionInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionInfoView.swift; sourceTree = "<group>"; };
+		F49BAD5E2BAC9F3700E2225E /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		F49BAD602BACA31A00E2225E /* MissionDiscoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDiscoveryView.swift; sourceTree = "<group>"; };
+		F49BAD622BACA48B00E2225E /* MissionVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionVideoView.swift; sourceTree = "<group>"; };
+		F49BAD662BACADA800E2225E /* ImageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRow.swift; sourceTree = "<group>"; };
+		F49BAD682BACB1C300E2225E /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 		F4A875482BA665630014BA22 /* MarsLen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsLen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A8754B2BA665630014BA22 /* MarsLenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsLenApp.swift; sourceTree = "<group>"; };
 		F4A8754D2BA665630014BA22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4A8754F2BA665650014BA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4A875522BA665650014BA22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F4A8755A2BA667710014BA22 /* RoverListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverListView.swift; sourceTree = "<group>"; };
-		F4A8755C2BA6696C0014BA22 /* RoverDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverDetailView.swift; sourceTree = "<group>"; };
+		F4A8755A2BA667710014BA22 /* MissionListVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionListVIew.swift; sourceTree = "<group>"; };
+		F4A8755C2BA6696C0014BA22 /* Test01View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test01View.swift; sourceTree = "<group>"; };
 		F4A8755F2BA669F50014BA22 /* ColorExtends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtends.swift; sourceTree = "<group>"; };
 		F4A875612BA679D30014BA22 /* DynamicGradientBorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicGradientBorderButton.swift; sourceTree = "<group>"; };
 		F4A875672BA6A5D40014BA22 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
-		F4A8756C2BA6B2070014BA22 /* Test3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test3DView.swift; sourceTree = "<group>"; };
+		F4A8756C2BA6B2070014BA22 /* Mars3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mars3DView.swift; sourceTree = "<group>"; };
 		F4A875752BA6C3350014BA22 /* spirit.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = spirit.usdz; sourceTree = "<group>"; };
 		F4A875782BA6C9610014BA22 /* spirit.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = spirit.scn; sourceTree = "<group>"; };
-		F4A8757A2BA6CE560014BA22 /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
-		F4A8757C2BA6CF130014BA22 /* Earth.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Earth.scn; sourceTree = "<group>"; };
 		F4A8757E2BA6D0960014BA22 /* MRO.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = MRO.usdz; sourceTree = "<group>"; };
 		F4A875802BA6E08C0014BA22 /* EarthClouds.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = EarthClouds.usdz; sourceTree = "<group>"; };
-		F4A875822BA6E0CB0014BA22 /* EarthClouds.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = EarthClouds.scn; sourceTree = "<group>"; };
+		F4FA46752BAA9E440055047D /* Mars_diff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mars_diff.jpg; sourceTree = "<group>"; };
+		F4FA46762BAA9E440055047D /* 13903_Mars_v1_l3.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = 13903_Mars_v1_l3.obj; sourceTree = "<group>"; };
+		F4FA46772BAA9E440055047D /* 13903_Mars_v1_l3.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; path = 13903_Mars_v1_l3.mtl; sourceTree = "<group>"; };
+		F4FA467B2BAA9E6F0055047D /* Venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Venus.usdz; sourceTree = "<group>"; };
+		F4FA467C2BAA9E6F0055047D /* Jupiter.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Jupiter.usdz; sourceTree = "<group>"; };
+		F4FA467D2BAA9E6F0055047D /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
+		F4FA467E2BAA9E6F0055047D /* Mars.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mars.usdz; sourceTree = "<group>"; };
+		F4FA467F2BAA9E6F0055047D /* Pluto.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pluto.usdz; sourceTree = "<group>"; };
+		F4FA46852BAAA2DC0055047D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		F4A8753F2BA665630014BA22 = {
 			isa = PBXGroup;
 			children = (
+				F4FA46772BAA9E440055047D /* 13903_Mars_v1_l3.mtl */,
+				F4FA46762BAA9E440055047D /* 13903_Mars_v1_l3.obj */,
+				F4FA46752BAA9E440055047D /* Mars_diff.jpg */,
 				F4A8754A2BA665630014BA22 /* MarsLen */,
 				F4A875492BA665630014BA22 /* Products */,
 			);
@@ -99,12 +126,17 @@
 			children = (
 				F4A8754B2BA665630014BA22 /* MarsLenApp.swift */,
 				F4A8754D2BA665630014BA22 /* ContentView.swift */,
-				F4A8755A2BA667710014BA22 /* RoverListView.swift */,
-				F4A8755C2BA6696C0014BA22 /* RoverDetailView.swift */,
-				F43561722BA80F24004022E7 /* PhotoListView.swift */,
-				F4A8756C2BA6B2070014BA22 /* Test3DView.swift */,
-				F435616E2BA7B00E004022E7 /* TestView.swift */,
-				F43561742BA814A2004022E7 /* Test01View.swift */,
+				F4FA46852BAAA2DC0055047D /* WelcomeView.swift */,
+				F4A8756C2BA6B2070014BA22 /* Mars3DView.swift */,
+				F4A8755A2BA667710014BA22 /* MissionListVIew.swift */,
+				F49BAD5E2BAC9F3700E2225E /* MissionView.swift */,
+				F49BAD5C2BAC9B6C00E2225E /* MissionInfoView.swift */,
+				F43561742BA814A2004022E7 /* MissionSpecView.swift */,
+				F49BAD602BACA31A00E2225E /* MissionDiscoveryView.swift */,
+				F49BAD622BACA48B00E2225E /* MissionVideoView.swift */,
+				F43561722BA80F24004022E7 /* MissionGalleryView.swift */,
+				F49BAD682BACB1C300E2225E /* PhotoView.swift */,
+				F4A8755C2BA6696C0014BA22 /* Test01View.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -122,6 +154,8 @@
 			children = (
 				F4A875612BA679D30014BA22 /* DynamicGradientBorderButton.swift */,
 				F43561702BA7F2EC004022E7 /* GridView.swift */,
+				F49BAD5A2BAC975F00E2225E /* NavigationRow.swift */,
+				F49BAD662BACADA800E2225E /* ImageRow.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -137,12 +171,14 @@
 		F4A875772BA6C3450014BA22 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				F4FA467D2BAA9E6F0055047D /* Earth.usdz */,
+				F4FA467C2BAA9E6F0055047D /* Jupiter.usdz */,
+				F4FA467E2BAA9E6F0055047D /* Mars.usdz */,
+				F4FA467F2BAA9E6F0055047D /* Pluto.usdz */,
+				F4FA467B2BAA9E6F0055047D /* Venus.usdz */,
 				F4A8757E2BA6D0960014BA22 /* MRO.usdz */,
 				F4A875802BA6E08C0014BA22 /* EarthClouds.usdz */,
 				F4A875752BA6C3350014BA22 /* spirit.usdz */,
-				F4A8757A2BA6CE560014BA22 /* Earth.usdz */,
-				F4A875822BA6E0CB0014BA22 /* EarthClouds.scn */,
-				F4A8757C2BA6CF130014BA22 /* Earth.scn */,
 				F4A875782BA6C9610014BA22 /* spirit.scn */,
 			);
 			path = Objects;
@@ -211,13 +247,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4FA46802BAA9E6F0055047D /* Venus.usdz in Resources */,
+				F4FA46812BAA9E6F0055047D /* Jupiter.usdz in Resources */,
+				F4FA46822BAA9E6F0055047D /* Earth.usdz in Resources */,
+				F4FA46832BAA9E6F0055047D /* Mars.usdz in Resources */,
+				F4FA46842BAA9E6F0055047D /* Pluto.usdz in Resources */,
+				F4FA46782BAA9E440055047D /* Mars_diff.jpg in Resources */,
+				F4FA46792BAA9E440055047D /* 13903_Mars_v1_l3.obj in Resources */,
+				F4FA467A2BAA9E440055047D /* 13903_Mars_v1_l3.mtl in Resources */,
 				F4A875812BA6E08D0014BA22 /* EarthClouds.usdz in Resources */,
 				F4A8757F2BA6D0960014BA22 /* MRO.usdz in Resources */,
-				F4A875832BA6E0CB0014BA22 /* EarthClouds.scn in Resources */,
-				F4A8757B2BA6CE560014BA22 /* Earth.usdz in Resources */,
 				F4A875792BA6C9610014BA22 /* spirit.scn in Resources */,
 				F4A875762BA6C3350014BA22 /* spirit.usdz in Resources */,
-				F4A8757D2BA6CF130014BA22 /* Earth.scn in Resources */,
 				F4A875532BA665650014BA22 /* Preview Assets.xcassets in Resources */,
 				F4A875502BA665650014BA22 /* Assets.xcassets in Resources */,
 			);
@@ -230,15 +271,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49BAD5D2BAC9B6C00E2225E /* MissionInfoView.swift in Sources */,
 				F4A875682BA6A5D40014BA22 /* AppModel.swift in Sources */,
-				F4A8755D2BA6696C0014BA22 /* RoverDetailView.swift in Sources */,
-				F435616F2BA7B00E004022E7 /* TestView.swift in Sources */,
+				F4A8755D2BA6696C0014BA22 /* Test01View.swift in Sources */,
+				F49BAD692BACB1C300E2225E /* PhotoView.swift in Sources */,
 				F4A875622BA679D30014BA22 /* DynamicGradientBorderButton.swift in Sources */,
 				F4A875602BA669F50014BA22 /* ColorExtends.swift in Sources */,
-				F43561732BA80F25004022E7 /* PhotoListView.swift in Sources */,
-				F4A8756D2BA6B2070014BA22 /* Test3DView.swift in Sources */,
-				F43561752BA814A2004022E7 /* Test01View.swift in Sources */,
-				F4A8755B2BA667710014BA22 /* RoverListView.swift in Sources */,
+				F43561732BA80F25004022E7 /* MissionGalleryView.swift in Sources */,
+				F4A8756D2BA6B2070014BA22 /* Mars3DView.swift in Sources */,
+				F49BAD612BACA31A00E2225E /* MissionDiscoveryView.swift in Sources */,
+				F49BAD5F2BAC9F3700E2225E /* MissionView.swift in Sources */,
+				F4FA46862BAAA2DC0055047D /* WelcomeView.swift in Sources */,
+				F49BAD5B2BAC975F00E2225E /* NavigationRow.swift in Sources */,
+				F49BAD672BACADA800E2225E /* ImageRow.swift in Sources */,
+				F43561752BA814A2004022E7 /* MissionSpecView.swift in Sources */,
+				F49BAD632BACA48B00E2225E /* MissionVideoView.swift in Sources */,
+				F4A8755B2BA667710014BA22 /* MissionListVIew.swift in Sources */,
 				F4A8754E2BA665630014BA22 /* ContentView.swift in Sources */,
 				F4A8754C2BA665630014BA22 /* MarsLenApp.swift in Sources */,
 				F43561712BA7F2EC004022E7 /* GridView.swift in Sources */,

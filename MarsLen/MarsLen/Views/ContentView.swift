@@ -11,9 +11,7 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView {
-           RoverListView()
-//            RoverDetailView()
-//            TestView()
+            WelcomeView()
         }
         .environmentObject(AppModel())
     }

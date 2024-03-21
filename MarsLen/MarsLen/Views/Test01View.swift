@@ -1,32 +1,68 @@
 //
-//  Test01View.swift
+//  RoverDetailView.swift
 //  MarsLen
 //
-//  Created by Simon Fong on 18/03/2024.
+//  Created by Simon Fong on 16/03/2024.
 //
 
 import SwiftUI
 
-struct Test01View: View {
+struct RoverDetailView: View {
+    
+    @EnvironmentObject var model: AppModel
+
     var body: some View {
-        ScrollView {
-            VStack(spacing: 20) {
-                ForEach(0..<20) { index in
-                    Text("Item \(index)")
-                        .font(.title)
-                        .padding()
-                        .frame(maxWidth: .infinity)
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
+        
+        NavigationStack{
+            VStack{
+
+                Image("\(model.rover_list[model.currentIndex].name)_3")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 380)
+                    .cornerRadius(25)
+                    .padding()
+                    .shadow(color: Color.black.opacity(0.4), radius: 10, x: 5, y: 10)
+                
+                
+                GridView(data: model.rover_list[model.currentIndex].metaData)
+                    .opacity(0.9)
+                
+                Spacer()
+                
+                NavigationLink(
+                    destination: MissionGalleryView()
+                ) {
+                    HStack {
+                        Image(systemName: "square.and.arrow.up")
+                        Text("View Images")
+                            .font(.system(size: 18))
+                            
+                    }
+                    .foregroundColor(Color.primaryDark)    // font color
+                    .frame(width: 250, height: 30)
+                    .background(Color.secondaryWhite.opacity(0.5))    // btn bg
+                    .cornerRadius(17)
+                    .shadow(color: Color.black.opacity(0.4), radius: 10, x: 5, y: 10)
                 }
             }
-            .padding()
+            .containerRelativeFrame([.horizontal, .vertical])
+            .background(Gradient(
+                colors: [
+                    .secondaryBrown
+                    , .secondaryRed
+                    , .secondaryDark
+                ]).opacity(0.7))
+            .navigationTitle("Mission \(model.rover_list[model.currentIndex].name)")
+            }
         }
-        .navigationBarTitle("ScrollView Example")
     }
-}
 
-#Preview {
-    Test01View()
+
+struct RoverDetailView_PreviewView:PreviewProvider {
+
+    static var previews: some View{
+        RoverDetailView()
+            .environmentObject(AppModel())
+    }
 }
