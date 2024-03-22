@@ -26,7 +26,7 @@ struct MissionSpecView: View {
                 }
                 
                 // image
-                Image("Spirit_3")
+                Image("Spirit_1")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: UIScreen.main.bounds.size.width * 0.95)

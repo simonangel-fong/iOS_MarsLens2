@@ -27,7 +27,7 @@ struct MissionDiscoveryView: View {
                 .padding(.bottom,20)
                 
                 // image
-                Image("Spirit_2")
+                Image("Discovery")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: UIScreen.main.bounds.size.width * 0.95)
