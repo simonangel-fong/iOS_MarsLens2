@@ -28,7 +28,7 @@ struct DynamicGradientBorderButton: View {
             
             // border
             RoundedRectangle(cornerRadius: 10,style: .continuous)
-                .frame(width: 25, height:300)
+                .frame(width: 25, height:150)
                 .foregroundStyle(LinearGradient(
                     gradient: Gradient(
                         colors:

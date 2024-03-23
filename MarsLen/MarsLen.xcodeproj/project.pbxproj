@@ -31,9 +31,6 @@
 		F4A875792BA6C9610014BA22 /* spirit.scn in Resources */ = {isa = PBXBuildFile; fileRef = F4A875782BA6C9610014BA22 /* spirit.scn */; };
 		F4A8757F2BA6D0960014BA22 /* MRO.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4A8757E2BA6D0960014BA22 /* MRO.usdz */; };
 		F4A875812BA6E08D0014BA22 /* EarthClouds.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4A875802BA6E08C0014BA22 /* EarthClouds.usdz */; };
-		F4FA46782BAA9E440055047D /* Mars_diff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4FA46752BAA9E440055047D /* Mars_diff.jpg */; };
-		F4FA46792BAA9E440055047D /* 13903_Mars_v1_l3.obj in Resources */ = {isa = PBXBuildFile; fileRef = F4FA46762BAA9E440055047D /* 13903_Mars_v1_l3.obj */; };
-		F4FA467A2BAA9E440055047D /* 13903_Mars_v1_l3.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F4FA46772BAA9E440055047D /* 13903_Mars_v1_l3.mtl */; };
 		F4FA46802BAA9E6F0055047D /* Venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4FA467B2BAA9E6F0055047D /* Venus.usdz */; };
 		F4FA46812BAA9E6F0055047D /* Jupiter.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4FA467C2BAA9E6F0055047D /* Jupiter.usdz */; };
 		F4FA46822BAA9E6F0055047D /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F4FA467D2BAA9E6F0055047D /* Earth.usdz */; };
@@ -68,9 +65,6 @@
 		F4A875782BA6C9610014BA22 /* spirit.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = spirit.scn; sourceTree = "<group>"; };
 		F4A8757E2BA6D0960014BA22 /* MRO.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = MRO.usdz; sourceTree = "<group>"; };
 		F4A875802BA6E08C0014BA22 /* EarthClouds.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = EarthClouds.usdz; sourceTree = "<group>"; };
-		F4FA46752BAA9E440055047D /* Mars_diff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mars_diff.jpg; sourceTree = "<group>"; };
-		F4FA46762BAA9E440055047D /* 13903_Mars_v1_l3.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = 13903_Mars_v1_l3.obj; sourceTree = "<group>"; };
-		F4FA46772BAA9E440055047D /* 13903_Mars_v1_l3.mtl */ = {isa = PBXFileReference; lastKnownFileType = text; path = 13903_Mars_v1_l3.mtl; sourceTree = "<group>"; };
 		F4FA467B2BAA9E6F0055047D /* Venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Venus.usdz; sourceTree = "<group>"; };
 		F4FA467C2BAA9E6F0055047D /* Jupiter.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Jupiter.usdz; sourceTree = "<group>"; };
 		F4FA467D2BAA9E6F0055047D /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
@@ -83,9 +77,6 @@
 		F4A8753F2BA665630014BA22 = {
 			isa = PBXGroup;
 			children = (
-				F4FA46772BAA9E440055047D /* 13903_Mars_v1_l3.mtl */,
-				F4FA46762BAA9E440055047D /* 13903_Mars_v1_l3.obj */,
-				F4FA46752BAA9E440055047D /* Mars_diff.jpg */,
 				F4A8754A2BA665630014BA22 /* MarsLen */,
 				F4A875492BA665630014BA22 /* Products */,
 			);
@@ -252,9 +243,6 @@
 				F4FA46822BAA9E6F0055047D /* Earth.usdz in Resources */,
 				F4FA46832BAA9E6F0055047D /* Mars.usdz in Resources */,
 				F4FA46842BAA9E6F0055047D /* Pluto.usdz in Resources */,
-				F4FA46782BAA9E440055047D /* Mars_diff.jpg in Resources */,
-				F4FA46792BAA9E440055047D /* 13903_Mars_v1_l3.obj in Resources */,
-				F4FA467A2BAA9E440055047D /* 13903_Mars_v1_l3.mtl in Resources */,
 				F4A875812BA6E08D0014BA22 /* EarthClouds.usdz in Resources */,
 				F4A8757F2BA6D0960014BA22 /* MRO.usdz in Resources */,
 				F4A875792BA6C9610014BA22 /* spirit.scn in Resources */,
